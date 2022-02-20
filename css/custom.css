@@ -387,12 +387,12 @@ nav.sticky
     margin-top: 40px;
 }
 .footer-bottom-text p{
-    color: #b7b7b7;
+    color: black;
     margin-bottom: 0;
 }
 
 .footer-bottom-text p a{
-    color: #e53637;
+    color: #5f636d;
 }
 
 /*  social media icon placement and hover effects inside footer section */
