@@ -51,6 +51,33 @@ nav {
     background-color: gray;
 }
 
+.dropdown {
+    display: inline-block; 
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #afb1b6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: white;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /*For media results(for responsive design) https://www.w3schools.com/css/css_rwd_mediaqueries.asp*- Mansi*/
 @media (min-width: 650px) {
     .nav-btn {
