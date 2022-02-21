@@ -109,7 +109,7 @@ nav {
 /*For backgroung image: https://www.w3schools.com/howto/howto_css_full_page.asp 
 and for css https://www.w3schools.com/cssref/pr_background-image.asp* It aligns the image for the whole division- Mansi*/
 .home-container {
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/gis.png');
     height: 70vh;
     background-repeat: no-repeat;
     background-position: center;
